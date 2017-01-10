@@ -1,3 +1,5 @@
-fuww:slug@0.0.1
-meteor@1.0.3
-underscore@1.0.0
+fuww:slug@0.0.3
+meteor@1.1.12
+modules@0.5.1
+modules-runtime@0.6.1
+underscore@1.0.6

@@ -1,3 +1,3 @@
 /* global slug: true */
 
-slug = Npm.require('slug');
+slug = require('slug');

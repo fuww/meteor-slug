@@ -4,19 +4,19 @@
 Package.describe({
   summary: 'Wrapper package for slug NPM package ' +
     'without unicode database for client',
-  version: '0.0.1',
+  version: '0.0.3',
   name: 'fuww:slug',
   git: 'https://github.com/fuww/meteor-slug.git',
   documentation: 'README.md'
 });
 
-Npm.depends({
-  slug: '0.9.1'
-});
-
 Package.onUse(function(api) {
+  api.use([
+    'modules@0.5.1'
+  ], 'server');
+
   api.addFiles([
-    '.npm/package/node_modules/slug/slug.js',
+    'node_modules/slug/slug.js',
     'client/slug.js'
   ], 'client');
 
