@@ -4,7 +4,7 @@
 Package.describe({
   summary: 'Wrapper package for slug NPM package ' +
     'without unicode database for client',
-  version: '0.0.3',
+  version: '0.0.4',
   name: 'fuww:slug',
   git: 'https://github.com/fuww/meteor-slug.git',
   documentation: 'README.md'
