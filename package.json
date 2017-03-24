@@ -11,6 +11,6 @@
     "extends": "google"
   },
   "dependencies": {
-    "slug": "^0.9.1"
+    "slug": "fuww/node-slug"
   }
 }
