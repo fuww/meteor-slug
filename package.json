@@ -11,6 +11,6 @@
     "extends": "google"
   },
   "dependencies": {
-    "slug": "fuww/node-slug"
+    "slug": "GerHobbelt/node-slug"
   }
 }
